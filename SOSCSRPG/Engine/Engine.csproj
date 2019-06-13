@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Locations\FarmFields.png" />
+    <None Remove="Images\Locations\Farmhouse.png" />
+    <None Remove="Images\Locations\HerbalistsGarden.png" />
+    <None Remove="Images\Locations\HerbalistsHut.png" />
+    <None Remove="Images\Locations\Home.png" />
+    <None Remove="Images\Locations\SpiderForest.png" />
+    <None Remove="Images\Locations\TownGate.png" />
+    <None Remove="Images\Locations\TownSquare.png" />
+    <None Remove="Images\Locations\Trader.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\Locations\FarmFields.png" />
+    <EmbeddedResource Include="Images\Locations\Farmhouse.png" />
+    <EmbeddedResource Include="Images\Locations\HerbalistsGarden.png" />
+    <EmbeddedResource Include="Images\Locations\HerbalistsHut.png" />
+    <EmbeddedResource Include="Images\Locations\SpiderForest.png" />
+    <EmbeddedResource Include="Images\Locations\TownGate.png" />
+    <EmbeddedResource Include="Images\Locations\TownSquare.png" />
+    <EmbeddedResource Include="Images\Locations\Trader.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\Locations\Home.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
