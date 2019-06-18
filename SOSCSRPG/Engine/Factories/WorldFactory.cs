@@ -26,6 +26,10 @@ namespace Engine.Factories
                 "C:/Tutorials/SimpleRPG_Game/SOSCSRPG/Engine/Images/Locations/SpiderForest.png");
             newWorld.AddLocation(0, 1, "Herbalist's hut", "You see a small hut, with plants drying from the roof.",
                 "C:/Tutorials/SimpleRPG_Game/SOSCSRPG/Engine/Images/Locations/HerbalistsHut.png");
+            newWorld.LocationAt(0,1).QuestsAvailableHere.Add(QuestFactory.GetQuestById(1));
+
+
+
             newWorld.AddLocation(0, 2, "Herbalist's garden", "There are many plants here, with snakes hiding behind them.",
                 "C:/Tutorials/SimpleRPG_Game/SOSCSRPG/Engine/Images/Locations/HerbalistsGarden.png");
 
