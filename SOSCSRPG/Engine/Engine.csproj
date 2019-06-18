@@ -14,6 +14,13 @@
     <None Remove="Images\Locations\TownGate.png" />
     <None Remove="Images\Locations\TownSquare.png" />
     <None Remove="Images\Locations\Trader.png" />
+    <None Remove="Images\Monster\GiantSpider.png" />
+    <None Remove="Images\Monster\Rat.png" />
+    <None Remove="Images\Monster\Snake.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\Monster\GiantSpider.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -31,6 +38,8 @@
     <EmbeddedResource Include="Images\Locations\Home.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
+    <EmbeddedResource Include="Images\Monster\Rat.png" />
+    <EmbeddedResource Include="Images\Monster\Snake.png" />
   </ItemGroup>
 
 </Project>
